@@ -87,17 +87,7 @@ This helps identify the root cause of the performance problem.
 
 ## Screenshot
 
-Run:
-
-top
-
-Take a screenshot while the dashboard is visible.
-
-Save the image as:
-
-screenshots/top.png
-
----
+![pwd output](screenshots/top.png)
 
 # Check Memory Usage
 
