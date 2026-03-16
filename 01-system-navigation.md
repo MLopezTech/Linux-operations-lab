@@ -8,13 +8,13 @@ Ubuntu running inside VirtualBox.
 
 ## Commands Practiced
 
-pwd
+### pwd
 Displays the current working directory.
 
 Screenshot:
 
 ![pwd output](screenshots/pwd1.png)
-ls
+### ls
 Lists files and directories.
 ![ls command output](screenshots/ls.jpeg)
 ls -la
