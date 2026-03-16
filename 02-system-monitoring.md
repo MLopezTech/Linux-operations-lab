@@ -20,10 +20,6 @@ uptime
 
 The `uptime` command displays how long the system has been running, how many users are logged in, and the system load averages.
 
-Example output:
-
-14:10:25 up 2:34, 1 user, load average: 0.12, 0.10, 0.05
-
 ## What This Information Means
 
 - **System Time** – Current system clock  
