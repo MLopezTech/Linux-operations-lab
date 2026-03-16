@@ -168,17 +168,7 @@ This prevents new files from being created.
 
 ## Screenshot
 
-Run:
-
-df -h
-
-Take a screenshot of the disk usage output.
-
-Save the image as:
-
-screenshots/disk-usage.png
-
----
+![df -h output](screenshots/dfh.png)
 
 # View Running Processes
 
