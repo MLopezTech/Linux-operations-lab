@@ -206,12 +206,4 @@ The process can then be analyzed or terminated if necessary.
 
 ## Screenshot
 
-Run:
-
-ps aux
-
-Take a screenshot of the output.
-
-Save the image as:
-
-screenshots/processes.png
+![psaux output](screenshots/psaux.png)
