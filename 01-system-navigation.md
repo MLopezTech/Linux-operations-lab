@@ -33,6 +33,7 @@ Navigates to variable system data such as logs.
 
 ### cd ~
 Returns to the user's home directory.
+![ls la command output](screenshots/cdpwd.png)
 
 ## Key Directories Explored
 
