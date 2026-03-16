@@ -1,6 +1,6 @@
-# Linux Operations Lab
+# Linux & Cloud Service Operations Lab
 
-This repository documents my hands-on Linux administration and troubleshooting practice while preparing for infrastructure and cloud engineering roles.
+This repository documents my hands-on Linux administration and troubleshooting practice while preparing for Linux and cloud service operations roles.
 
 ## Lab Environment
 - Ubuntu running in VirtualBox
