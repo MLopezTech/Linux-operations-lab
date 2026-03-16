@@ -10,7 +10,9 @@ Ubuntu running inside VirtualBox.
 
 pwd
 Displays the current working directory.
+Screenshot:
 
+![pwd output](screenshots/pwd1.png)
 ls
 Lists files and directories.
 
