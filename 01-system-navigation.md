@@ -19,7 +19,7 @@ Lists files and directories.
 ![ls command output](screenshots/ls.jpeg)
 ls -la
 Lists files including hidden files and permissions.
-
+![ls la output] (screenshots/lsls.png)
 cd /
 Moves to the root directory.
 
