@@ -20,8 +20,6 @@ Lists files and directories.
 ls -la
 Lists files including hidden files and permissions.
 ![ls la command output](screenshots/lsla.png)
-cd /
-Moves to the root directory.
 
 cd /etc
 Navigates to the system configuration directory.
