@@ -29,6 +29,7 @@ Navigates to the system configuration directory.
 ![ls la command output](screenshots/cdetc4.png)
 cd /var
 Navigates to variable system data such as logs.
+![ls la command output](screenshots/cdvar.png)
 
 cd ~
 Returns to the user's home directory.
