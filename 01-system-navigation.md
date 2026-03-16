@@ -23,7 +23,7 @@ Lists files including hidden files and permissions.
 
 cd /etc
 Navigates to the system configuration directory.
-
+![ls la command output](screenshots/cdetc.png)
 cd /var
 Navigates to variable system data such as logs.
 
