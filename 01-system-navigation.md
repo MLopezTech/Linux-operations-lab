@@ -25,6 +25,8 @@ cd /etc
 Navigates to the system configuration directory.
 ![ls la command output](screenshots/cdetc.png)
 ![ls la command output](screenshots/cdetc2.png)
+![ls la command output](screenshots/cdetc3.png)
+![ls la command output](screenshots/cdetc4.png)
 cd /var
 Navigates to variable system data such as logs.
 
