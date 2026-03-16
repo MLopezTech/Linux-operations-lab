@@ -16,7 +16,7 @@ Screenshot:
 ![pwd output](screenshots/pwd1.png)
 ls
 Lists files and directories.
-
+![ls command output](screenshots/02-ls-command.png)
 ls -la
 Lists files including hidden files and permissions.
 
