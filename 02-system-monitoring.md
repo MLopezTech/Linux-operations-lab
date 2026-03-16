@@ -50,13 +50,7 @@ If the load average is extremely high, it indicates heavy CPU demand.
 
 ## Screenshot
 
-Take a screenshot after running:
-
-uptime
-
-Save the image as:
-
-screenshots/uptime.png
+![pwd output](screenshots/uptime.png)
 
 ---
 
