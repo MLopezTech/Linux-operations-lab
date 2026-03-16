@@ -1,19 +1,45 @@
-# System Navigation Practice
+# Lab 1 – Linux System Navigation
 
-Commands practiced:
+## Objective
+Practice navigating the Linux file system and inspecting important directories used in system administration.
+
+## Environment
+Ubuntu running inside VirtualBox.
+
+## Commands Practiced
 
 pwd
+Displays the current working directory.
+
+ls
+Lists files and directories.
+
 ls -la
+Lists files including hidden files and permissions.
+
 cd /
+Moves to the root directory.
+
 cd /etc
+Navigates to the system configuration directory.
+
+cd /var
+Navigates to variable system data such as logs.
+
 cd ~
+Returns to the user's home directory.
 
-Purpose:
+## Key Directories Explored
 
-Understanding how to navigate Linux file systems and inspect system directories.
+/etc  
+Contains system configuration files.
 
-Key directories explored:
+/home  
+Contains user home directories.
 
-/etc - system configuration files
-/home - user directories
-/var - logs and application data
+/var  
+Stores logs, application data, and temporary files.
+
+## What I Learned
+
+Understanding the Linux filesystem hierarchy is essential for troubleshooting servers, locating configuration files, and inspecting system logs.
