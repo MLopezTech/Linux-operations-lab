@@ -46,7 +46,7 @@ If the load average is extremely high, it indicates heavy CPU demand.
 
 ## Screenshot
 
-![pwd output](screenshots/uptime.png)
+![uptime output](screenshots/uptime.png)
 
 ---
 
@@ -87,7 +87,7 @@ This helps identify the root cause of the performance problem.
 
 ## Screenshot
 
-![pwd output](screenshots/top.png)
+![top output](screenshots/top.png)
 
 # Check Memory Usage
 
@@ -126,15 +126,7 @@ This indicates the system may be running out of RAM.
 
 ## Screenshot
 
-Run:
-
-free -h
-
-Take a screenshot of the output.
-
-Save the image as:
-
-screenshots/memory.png
+![free output](screenshots/freeh.png)
 
 ---
 
