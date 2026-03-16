@@ -17,21 +17,21 @@ Screenshot:
 ### ls
 Lists files and directories.
 ![ls command output](screenshots/ls.jpeg)
-ls -la
+### ls -la
 Lists files including hidden files and permissions.
 ![ls la command output](screenshots/lsla.png)
 
-cd /etc
+### cd /etc
 Navigates to the system configuration directory.
 ![ls la command output](screenshots/cdetc.png)
 ![ls la command output](screenshots/cdetc2.png)
 ![ls la command output](screenshots/cdetc3.png)
 ![ls la command output](screenshots/cdetc4.png)
-cd /var
+### cd /var
 Navigates to variable system data such as logs.
 ![ls la command output](screenshots/cdvar.png)
 
-cd ~
+### cd ~
 Returns to the user's home directory.
 
 ## Key Directories Explored
