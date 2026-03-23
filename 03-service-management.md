@@ -124,6 +124,7 @@ The service reloads with the updated configuration.
 
 ## Screenshot
 
+![systemctl2 output](screenshots/ctl3.png)
 
 
 ---
