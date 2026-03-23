@@ -86,6 +86,7 @@ An engineer checks the list of active services to verify required services are r
 
 ## Screenshot
 
+![systemctl2 output](screenshots/systemctl2.png)
 
 
 ---
