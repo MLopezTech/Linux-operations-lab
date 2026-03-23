@@ -48,7 +48,8 @@ The engineer can then restart the service.
 
 ## Screenshot
 
-![systemctl output](screenshots/systemctl.png)
+![systemctl output](screenshots/ctl1.png)
+
 
 ---
 
