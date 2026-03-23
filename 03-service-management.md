@@ -160,7 +160,7 @@ The engineer can enable it.
 
 ## Screenshot
 
-
+![systemctl output](screenshots/ctl4.png)
 
 ---
 
