@@ -140,7 +140,7 @@ Engineers use filtering to quickly identify security issues in large log files.
 
 ### Screenshot
 
-![filtered logs](screenshots/grep_failed.png)
+![journalctl output](screenshots/journalctl5.png)
 
 ---
 
