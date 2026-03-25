@@ -66,7 +66,7 @@ They can instantly see login attempts and authentication results.
 
 ### Screenshot
 
-![real time logs](screenshots/journalctl_follow.png)
+![journalctl output](screenshots/journalctl2.png)
 
 ---
 
