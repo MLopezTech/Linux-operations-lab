@@ -148,21 +148,20 @@ Engineers use filtering to quickly identify security issues in large log files.
 
 ### Command
 
-sudo cat /var/log/auth.log | grep ssh
+sudo cat /var/log/auth.log | grep -a ssh
 
 ### Explanation
 
-The `/var/log/auth.log` file contains authentication-related logs.
+The /var/log/auth.log file contains authentication and security-related logs, including SSH activity.
 
-Using `grep ssh` filters only SSH-related entries.
+Using grep -a ssh filters only SSH-related entries while forcing grep to treat the file as text, preventing the “binary file matches” issue.
 
 ### Real World Use Case
 
-SOC analysts use this log to investigate login activity and detect breaches.
-
+SOC analysts and system administrators use this log to investigate SSH service activity, monitor authentication events, and identify potential security issues such as unauthorized access or repeated login attempts.
 ### Screenshot
 
-![auth log](screenshots/authlog.png)
+![journalctl output](screenshots/journalctl6.png)
 
 ---
 
