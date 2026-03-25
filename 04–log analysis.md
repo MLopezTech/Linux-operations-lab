@@ -38,7 +38,7 @@ They review logs to identify unknown users or suspicious login attempts.
 
 ### Screenshot
 
-![ssh logs](screenshots/journalctl_ssh.png)
+![journalctl output](screenshots/journalctl1.png)
 
 ---
 
