@@ -118,7 +118,7 @@ Multiple failed attempts appear in logs, indicating a possible attack.
 
 ### Screenshot
 
-![failed login](screenshots/failed_ssh.png)
+![journalctl output](screenshots/journalctl4.png)
 
 ---
 
