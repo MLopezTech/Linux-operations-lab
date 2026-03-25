@@ -92,7 +92,7 @@ An engineer logs into the system and confirms the login appears in the logs.
 
 ### Screenshot
 
-![ssh login](screenshots/ssh_login.png)
+![journalctl output](screenshots/journalctl3.png)
 
 ---
 
