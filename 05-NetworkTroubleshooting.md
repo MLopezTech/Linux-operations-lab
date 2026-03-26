@@ -39,7 +39,7 @@ They confirm whether the correct interface is active and whether the machine has
 
 ### Screenshot
 
-![ip a output](screenshots/network1.png)
+![ipa output](screenshots/ipa.png)
 
 ---
 
