@@ -1,77 +1,126 @@
 # Linux & Cloud Service Operations Lab
 
-This project documents my hands-on Linux system administration and troubleshooting practice while preparing for Linux and cloud service operations roles.
+## Overview
 
-The goal of this lab is to simulate real operational workflows used by service operations engineers, including system navigation, monitoring, troubleshooting, and log analysis.
+This project simulates real-world workflows performed by Service Operations Analysts, Linux Administrators, and Cloud Support Engineers.
 
----
+The lab is designed to replicate how engineers troubleshoot systems, analyze logs, manage services, and resolve network issues in production environments.
 
-# Lab Environment
-
-Ubuntu Server running inside VirtualBox
-
-Terminal-based Linux administration exercises
-
-Commands executed and documented through GitHub
+Each module focuses on hands-on command-line operations with real troubleshooting scenarios, mirroring responsibilities found in enterprise IT and cloud-based infrastructures.
 
 ---
 
-# Skills Demonstrated
+## Objective
 
-Linux filesystem navigation  
-System resource monitoring  
-Log investigation and troubleshooting  
-Service management with systemctl  
-Networking diagnostics  
-Basic system administration workflows
+Build practical, job-ready Linux troubleshooting skills used in:
+
+- Service Operations (SOC / NOC environments)
+- Cloud Support Engineering (AWS / Azure)
+- System Administration
+- Incident Response & Production Support
+
+This lab emphasizes **operational thinking**, not just commands — focusing on how engineers diagnose and resolve real issues.
 
 ---
 
-# Lab Structure
+## Lab Environment
 
-Each lab focuses on a practical operational task.
+- Ubuntu Server (VirtualBox)
+- Terminal-based Linux administration
+- GitHub for documentation and version control
+
+---
+
+## Core Skills Demonstrated
+
+- Linux system navigation and file management  
+- System performance monitoring and analysis  
+- Service management using `systemctl`  
+- Log analysis using `journalctl` and system logs  
+- Network troubleshooting and diagnostics  
+- Incident-style problem investigation  
+- Command-line efficiency and troubleshooting workflows  
+
+---
+
+## Lab Structure
+
+Each lab represents a core responsibility in a real operations role:
 
 | Lab | Topic |
-|----|------|
+|-----|------|
 | 01 | System Navigation |
 | 02 | System Monitoring |
 | 03 | Service Management |
 | 04 | Log Analysis |
 | 05 | Network Troubleshooting |
 
-Each lab contains:
+Each lab includes:
 
-Commands used  
-Explanation of each command  
-Screenshots of terminal output  
-Operational context
-
----
-
-# Example Topics Practiced
-
-Filesystem navigation with `cd`, `ls`, `pwd`
-
-Investigating hidden files and configuration directories
-
-Exploring important Linux directories such as `/etc`, `/var`, and `/home`
-
-Understanding system log locations such as `/var/log`
-
-Using navigation shortcuts like `cd ~`, `cd ..`, and `cd -`
+- Commands used
+- Technical explanations
+- Real-world use cases
+- Screenshots of output
+- Operational context
 
 ---
 
-# Goal
+## Key Operational Workflows Practiced
 
-Build practical Linux troubleshooting skills commonly used in production infrastructure and cloud environments.
+- Diagnosing system issues using CLI tools  
+- Investigating logs for security and system events  
+- Restarting and validating services  
+- Identifying CPU, memory, and process issues  
+- Troubleshooting network connectivity and DNS failures  
+- Verifying system configurations and dependencies  
 
-This lab demonstrates foundational knowledge required for roles involving:
+---
 
-Linux administration
+## Real-World Relevance
 
-Service operations
+This project mirrors tasks performed in:
 
-Cloud infrastructure support
+- Incident response calls (high CPU, service failures)
+- Linux server troubleshooting (SSH, services, logs)
+- Cloud VM diagnostics (network + service validation)
+- SOC investigations (authentication logs, failed logins)
 
-System monitoring and incident response
+The goal is to simulate **production-level thinking**, not just basic command usage.
+
+---
+
+## Example Scenarios Covered
+
+- Service failure impacting system access  
+- High CPU usage affecting application performance  
+- Failed SSH login attempts indicating potential security concerns  
+- DNS misconfiguration preventing external connectivity  
+- Network routing issues blocking communication  
+
+---
+
+## Goal
+
+Develop a strong foundation in Linux operations and troubleshooting to prepare for roles such as:
+
+- Service Operations Analyst (Linux & Cloud)
+- Cloud Support Engineer
+- Systems Engineer
+- Site Reliability Engineer (SRE)
+
+---
+
+## Future Enhancements (Next Phase)
+
+- AWS EC2-based lab environments  
+- CloudWatch monitoring integration  
+- Infrastructure as Code (Terraform)  
+- Simulated production incidents (CPU spikes, service outages)  
+- Automated remediation scripts (Bash / Python)  
+
+---
+
+## Author
+
+Miguel Lopez  
+Cloud & Systems Engineering Path  
