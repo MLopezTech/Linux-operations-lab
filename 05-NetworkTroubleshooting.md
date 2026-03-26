@@ -185,11 +185,6 @@ If it shows 127.0.0.53, they then run: resolvectl status
 
 to confirm the actual DNS servers and ensure they are valid.
 
-### Screenshot
-
-![resolv.conf output](screenshots/network5.png)
-
----
 
 ## Check Listening Ports
 
@@ -221,7 +216,7 @@ They confirm whether the service is listening on the expected port such as 80 or
 
 ### Screenshot
 
-![ss output](screenshots/network6.png)
+![tulnp output](screenshots/tulnp.png)
 
 ---
 
