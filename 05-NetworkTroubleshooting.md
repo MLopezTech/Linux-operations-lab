@@ -141,7 +141,7 @@ They verify that a valid default gateway exists and that routes are correctly co
 
 ### Screenshot
 
-![ping output](screenshots/ping3.png)
+![ping output](screenshots/ping4.png)
 
 ---
 
