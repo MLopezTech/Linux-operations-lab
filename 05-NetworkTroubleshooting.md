@@ -73,7 +73,7 @@ If replies are received, the network path is working and the issue may be relate
 
 ### Screenshot
 
-![ping output](screenshots/network2.png)
+![ping output](screenshots/ping.png)
 
 ---
 
