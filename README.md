@@ -120,37 +120,6 @@ Develop a strong foundation in Linux operations and troubleshooting to prepare f
 
 ---
 
----
-
-## Incident Simulation (Mini Project)
-
-This lab also includes a simulated production-style incident involving high CPU usage impacting system performance.
-
-### Scenario
-
-Users experienced system slowness due to excessive CPU consumption caused by a runaway process.
-
-### Investigation Steps
-
-- Identified CPU spike using `top`
-- Analyzed processes using `ps aux --sort=-%cpu`
-- Checked service health using `systemctl status`
-- Reviewed logs using `journalctl`
-
-### Resolution
-
-- Terminated the offending process using `kill -9 <PID>`
-- Restarted affected services
-- Validated system recovery
-
-### Outcome
-
-- System performance restored
-- Services stabilized
-- Root cause identified and documented
-
-This simulation reflects real-world incident response workflows used in service operations and cloud environments.
-
 ## Author
 
 Miguel Lopez  
