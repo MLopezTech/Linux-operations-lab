@@ -164,6 +164,7 @@ This means DNS queries are first handled locally and then forwarded to upstream 
 To view the real DNS servers in use, engineers can run
 
 resolvectl status
+![ping output](screenshots/ping6.png)
 
 ### Real World Use Case
 
