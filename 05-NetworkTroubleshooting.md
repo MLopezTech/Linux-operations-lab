@@ -170,17 +170,20 @@ resolvectl status
 
 ### Real World Use Case
 
-Engineers inspect this file when systems cannot resolve domain names.
+Engineers troubleshoot DNS issues by verifying both:
+
+The local resolver configuration (/etc/resolv.conf)
+The upstream DNS servers (resolvectl status)
 
 Example scenario:
 
-Users report that websites and remote services cannot be reached by hostname.
+A system cannot resolve domain names.
 
-An engineer runs:
+An engineer checks: cat /etc/resolv.conf
 
-cat /etc/resolv.conf
+If it shows 127.0.0.53, they then run: resolvectl status
 
-They check whether valid DNS servers are listed.
+to confirm the actual DNS servers and ensure they are valid.
 
 ### Screenshot
 
