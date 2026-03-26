@@ -107,7 +107,7 @@ This helps confirm whether DNS resolution is functioning properly.
 
 ### Screenshot
 
-![ping dns output](screenshots/network3.png)
+![ipa output](screenshots/ping2.png)
 
 ---
 
