@@ -250,7 +250,7 @@ They review where the path stops or where latency increases significantly.
 
 ### Screenshot
 
-![traceroute output](screenshots/network7.png)
+![traceroute output](screenshots/traceroute.png)
 
 ---
 
