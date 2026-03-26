@@ -153,11 +153,17 @@ cat /etc/resolv.conf
 
 ### Explanation
 
-The `/etc/resolv.conf` file contains DNS server configuration for the system.
+The /etc/resolv.conf file contains DNS configuration.
 
-Viewing this file allows engineers to confirm whether the correct name servers are configured.
+![ping output](screenshots/ping5.png)
 
-Incorrect or missing DNS entries can prevent hostname resolution.
+On modern Linux systems, this file may point to a local DNS resolver (127.0.0.53) managed by systemd-resolved instead of listing actual DNS servers.
+
+This means DNS queries are first handled locally and then forwarded to upstream DNS servers.
+
+To view the real DNS servers in use, engineers can run
+
+resolvectl status
 
 ### Real World Use Case
 
