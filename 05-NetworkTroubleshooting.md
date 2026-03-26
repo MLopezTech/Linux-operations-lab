@@ -166,6 +166,8 @@ To view the real DNS servers in use, engineers can run
 resolvectl status
 ![ping output](screenshots/ping6.png)
 
+![ping output](screenshots/ping7.png)
+
 ### Real World Use Case
 
 Engineers inspect this file when systems cannot resolve domain names.
