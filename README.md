@@ -99,6 +99,34 @@ The goal is to simulate **production-level thinking**, not just basic command us
 
 ---
 
+## Real-World Troubleshooting Workflow
+
+When diagnosing issues on a Linux system, I follow a structured approach:
+
+- Identify the issue  
+  - Example: system is slow, service is down, users cannot connect  
+
+- Check system performance  
+  - `top` to analyze CPU usage  
+  - `free -h` to check memory usage  
+  - `df -h` to verify disk space  
+
+- Identify problematic processes  
+  - `ps aux` to find processes consuming high resources  
+
+- Check service status  
+  - `systemctl status <service>` to verify if services are running  
+
+- Review logs  
+  - `journalctl` and `/var/log` to identify errors or failures  
+
+- Validate network connectivity  
+  - `ping`, `ss`, and `curl` to confirm communication between systems  
+
+- Apply fix and validate resolution  
+  - Restart services, stop processes, or free resources as needed  
+  - Re-run checks to confirm system stability  
+
 ## Goal
 
 Develop a strong foundation in Linux operations and troubleshooting to prepare for roles such as:
@@ -108,15 +136,6 @@ Develop a strong foundation in Linux operations and troubleshooting to prepare f
 - Systems Engineer
 - Site Reliability Engineer (SRE)
 
----
 
-## Future Enhancements (Next Phase)
 
-- AWS EC2-based lab environments  
-- CloudWatch monitoring integration  
-- Infrastructure as Code (Terraform)  
-- Simulated production incidents (CPU spikes, service outages)  
-- Automated remediation scripts (Bash / Python)  
-
----
 
