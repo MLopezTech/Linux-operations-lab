@@ -120,7 +120,3 @@ Develop a strong foundation in Linux operations and troubleshooting to prepare f
 
 ---
 
-## Author
-
-Miguel Lopez  
-Cloud & Systems Engineering Path  
